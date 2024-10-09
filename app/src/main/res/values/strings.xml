@@ -9,13 +9,17 @@
     <string name="imgGuide"> Img Guide </string>
     <string name="dot">Dot Nav</string>
     <string name="arrow">Next</string>
-    <string name="guideOne"><font color="#FEB686"> Calculadora B18 </font>  toda la ayuda para que puedas ser seleccionado en el proceso de Beca 18. </string>
-    <string name="guideTwo"> <font color="#FEB686"> Calculadora Preseleccion </font> calcula y simula tu puntaje de preselección en Beca 18 2025. </string>
-    <string name="guideThree"> <font color="#FEB686"> Calculadora Seleccion </font> calcula y simula tu puntaje de seleccion en Beca 18 2025. </string>
-    <string name="logoBeca"> Beca 18</string>
-    <string name="logoCal"> Calculadoras</string>
-    <string name="logoHome"> Home</string>
-    <string name="logoUser"> User</string>
-    <string name="post"> Postular a Beca 18</string>
+    <string name="guideOne"><font color="#FEB686">Calculadora B18 </font>  toda la ayuda para que puedas ser seleccionado en el proceso de Beca 18. </string>
+    <string name="guideTwo"> <font color="#FEB686">Calculadora Preseleccion </font> calcula y simula tu puntaje de preselección en Beca 18 2025. </string>
+    <string name="guideThree"> <font color="#FEB686">Calculadora Seleccion </font> calcula y simula tu puntaje de seleccion en Beca 18 2025. </string>
+    <string name="logoBeca">Beca 18</string>
+    <string name="logoCal">Calculadoras</string>
+    <string name="logoHome">Home</string>
+    <string name="logoUser">User</string>
+    <string name="post">Postular a Beca 18</string>
+    <string name="calPre">Calculadora Preseleccion</string>
+    <string name="calPreDesc">Simula aqui tu puntaje de preselección para beca 18</string>
+    <string name="calSel">Calculadora Seleccion</string>
+    <string name="calSelDesc">Simula aqui tu puntaje de selección para beca 18</string>
     <string name="homeDesc"> Aqui encontraras toda la ayuda necesaria para que puedas ser seleccionado en el proceso de Beca 18. La cual es una beca para que peruanos de buen rendimiento académico y de escasos recursos económicos estudien una carrera profesional, con todos los gastos cubiertos por el Estado. </string>
 </resources>

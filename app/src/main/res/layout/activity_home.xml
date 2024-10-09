@@ -88,7 +88,7 @@
                 android:padding="25dp">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/goCals"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
@@ -100,7 +100,7 @@
                     app:srcCompat="@drawable/calculator_black" />
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/goHome"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="27dp"
