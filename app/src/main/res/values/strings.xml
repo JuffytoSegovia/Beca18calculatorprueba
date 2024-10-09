@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Beca 18 Calculator</string>
+    <string name="appName"> Calculadora B18</string>
+    <string name="atrImgSplash">Img Splash</string>
+    <string name="btnSplash">Bienvenido</string>
+    <string name="descSplash">
+        La ayuda necesaria para que \n
+        puedas ser seleccionado en \n
+        el proceso de Beca 18. </string>
+    <string name="imgGuide"> Img Guide </string>
+    <string name="dot">Dot Nav</string>
+    <string name="arrow">Next</string>
+    <string name="guideOne"><font color="#FEB686"> Calculadora B18 </font>  toda la ayuda para que puedas ser seleccionado en el proceso de Beca 18. </string>
+    <string name="guideTwo"> <font color="#FEB686"> Calculadora Preseleccion </font> calcula y simula tu puntaje de preselección en Beca 18 2025. </string>
+    <string name="guideThree"> <font color="#FEB686"> Calculadora Seleccion </font> calcula y simula tu puntaje de seleccion en Beca 18 2025. </string>
 </resources>
