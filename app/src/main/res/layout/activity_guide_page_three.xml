@@ -99,7 +99,7 @@
                     android:layout_marginStart="80dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/arrow"
-                    app:srcCompat="@drawable/arrow" />
+                    app:srcCompat="@drawable/check" />
 
             </LinearLayout>
 

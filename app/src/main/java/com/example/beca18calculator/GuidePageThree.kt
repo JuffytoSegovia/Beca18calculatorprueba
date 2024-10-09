@@ -26,7 +26,7 @@ class GuidePageThree : AppCompatActivity() {
         }
 
         binding.nextPagTwo.setOnClickListener{
-            startActivity(Intent(this@GuidePageThree, GuidePageThree::class.java))
+            startActivity(Intent(this@GuidePageThree, HomeActivity::class.java))
         }
     }
 }
