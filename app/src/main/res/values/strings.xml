@@ -22,4 +22,8 @@
     <string name="calSel">Calculadora Seleccion</string>
     <string name="calSelDesc">Simula aqui tu puntaje de selección para beca 18</string>
     <string name="homeDesc"> Aqui encontraras toda la ayuda necesaria para que puedas ser seleccionado en el proceso de Beca 18. La cual es una beca para que peruanos de buen rendimiento académico y de escasos recursos económicos estudien una carrera profesional, con todos los gastos cubiertos por el Estado. </string>
+    <string name="nombreUno">Juan Manuel\nVolkmar Padierna</string>
+    <string name="uniUno">UPB</string>
+    <string name="nombreDos">Junior Segovia\nChalco</string>
+    <string name="uniDos">UCS</string>
 </resources>

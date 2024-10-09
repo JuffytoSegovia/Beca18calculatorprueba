@@ -19,5 +19,9 @@ class HomeActivity : AppCompatActivity() {
         binding.goHome.setOnClickListener{
             startActivity(Intent(this@HomeActivity, HomeActivity::class.java))
         }
+
+        binding.goCredits.setOnClickListener{
+            startActivity(Intent(this@HomeActivity, CreditsActivity::class.java))
+        }
     }
 }

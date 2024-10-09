@@ -20,5 +20,9 @@ class CalculatorsActivity : AppCompatActivity() {
         binding.goHome.setOnClickListener{
             startActivity(Intent(this@CalculatorsActivity, HomeActivity::class.java))
         }
+
+        binding.goCredits.setOnClickListener{
+            startActivity(Intent(this@CalculatorsActivity, CreditsActivity::class.java))
+        }
     }
 }
