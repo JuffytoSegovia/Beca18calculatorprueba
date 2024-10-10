@@ -41,9 +41,30 @@ class PrePagOneActivity : AppCompatActivity() {
         binding.nextPagF.setOnClickListener {
             if (validateInputs()) {
                 val intent = Intent(this, PrePagTwoActivity::class.java)
+                intent.putExtra("nombre", binding.nameInput.text.toString())
+                intent.putExtra("scorePagOne", calculateScore())
                 startActivity(intent)
             }
         }
+
+        binding.gFPagOne.setOnClickListener{
+            if (validateInputs()){
+                startActivity(Intent(this@PrePagOneActivity, PrePagOneActivity::class.java))
+            }
+        }
+
+        binding.gFPagTwo.setOnClickListener{
+            if (validateInputs()){
+                startActivity(Intent(this@PrePagOneActivity, PrePagTwoActivity::class.java))
+            }
+        }
+
+        binding.gFPagThree.setOnClickListener{
+            if (validateInputs()){
+                startActivity(Intent(this@PrePagOneActivity, PrePagThreeActivity::class.java))
+            }
+        }
+
     }
 
     private fun validateInputs(): Boolean {
@@ -77,6 +98,48 @@ class PrePagOneActivity : AppCompatActivity() {
             return false
         }
         return true
+    }
+
+    private fun calculateScore(): Int {
+        var score = 0
+
+        // ENP (E)
+        score += binding.enpInput.text.toString().toInt()
+
+        // SISFOH (S)
+        when (binding.sisfohSpinner.text.toString()) {
+            "Pobreza extrema" -> score += 5
+            "Pobreza" -> {
+                if (binding.modalitySpinner.text.toString() != "Ordinaria") {
+                    score += 2
+                }
+            }
+        }
+
+        // Tasa de transición (T)
+        score += getQuintilScore(binding.departmentSpinner.text.toString())
+
+        // EIB específico
+        if (binding.modalitySpinner.text.toString() == "EIB") {
+            when (binding.eibLanguageSpinner.text.toString()) {
+                "Primera prioridad" -> score += 10
+                "Segunda prioridad" -> score += 5
+            }
+        }
+
+        // Ajustar según el puntaje máximo de la modalidad
+        val maxScore = if (binding.modalitySpinner.text.toString() == "EIB") 180 else 170
+        return score.coerceAtMost(maxScore)
+    }
+
+    private fun getQuintilScore(department: String): Int {
+        return when (department) {
+            "Amazonas", "Ucayali", "Ayacucho", "Puno", "Loreto" -> 10
+            "San Martín", "Cusco", "Huánuco", "Apurímac", "Huancavelica" -> 7
+            "Áncash", "Tacna", "Madre de Dios", "Moquegua", "Pasco", "Cajamarca" -> 5
+            "Arequipa", "Piura", "Junín", "Tumbes" -> 2
+            else -> 0
+        }
     }
 
     private fun showError(message: String) {

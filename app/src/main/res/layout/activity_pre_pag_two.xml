@@ -64,7 +64,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/concursoNacionalCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -74,7 +74,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/concursoParticipacionCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -84,7 +84,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox3"
+                    android:id="@+id/juegosNacionalesCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -94,7 +94,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox4"
+                    android:id="@+id/juegosParticipacionCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"

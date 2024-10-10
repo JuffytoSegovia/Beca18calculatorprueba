@@ -64,7 +64,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox"
+                    android:id="@+id/discapacidadCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -74,7 +74,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox2"
+                    android:id="@+id/bomberosCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -84,7 +84,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox3"
+                    android:id="@+id/voluntariosCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -94,7 +94,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox4"
+                    android:id="@+id/comunidadNativaCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -104,7 +104,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox5"
+                    android:id="@+id/metalesPesadosCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -114,7 +114,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox6"
+                    android:id="@+id/poblacionBeneficiariaCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -124,7 +124,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox7"
+                    android:id="@+id/orfandadCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -134,7 +134,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox8"
+                    android:id="@+id/desproteccionCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
@@ -144,7 +144,7 @@
                     android:textSize="16sp" />
 
                 <CheckBox
-                    android:id="@+id/checkBox9"
+                    android:id="@+id/agenteSaludCheckbox"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
