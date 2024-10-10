@@ -24,5 +24,9 @@ class CalculatorsActivity : AppCompatActivity() {
         binding.goCredits.setOnClickListener{
             startActivity(Intent(this@CalculatorsActivity, CreditsActivity::class.java))
         }
+
+        binding.goPreCal.setOnClickListener{
+            startActivity(Intent(this@CalculatorsActivity, PrePagOneActivity::class.java))
+        }
     }
 }

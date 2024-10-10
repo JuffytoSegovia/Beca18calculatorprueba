@@ -26,4 +26,20 @@
     <string name="uniUno">UPB</string>
     <string name="nombreDos">Junior Segovia\nChalco</string>
     <string name="uniDos">UCS</string>
+
+    <string name="preTitulo">Calculadora Preseleccion</string>
+    <string name="nombreF">Tu Nombre Completo</string>
+    <string name="modalidadF">(M) Modalidad de postulacion:</string>
+    <string name="modalidadFH">Modalidad de postulacion</string>
+    <string name="puntajeENPF">(ENP) Puntaje Examen Nac. de Preselec.</string>
+    <string name="puntajeENPFH">Puntaje ENP (numero par 0-20)</string>
+    <string name="SISFOH">(S) Clasificación SISFOH:</string>
+    <string name="SISFOHHint">Clasificación SISFOH</string>
+    <string name="quintF">(T) Quintil de la tasa de transición:</string>
+    <string name="quintFH">Quintil de la tasa de transición</string>
+    <string name="lengua">Lengua Originaria</string>
+
+
+
+
 </resources>
