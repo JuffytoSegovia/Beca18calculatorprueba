@@ -45,5 +45,15 @@
     <string name="actExtOpc3">(JD) Juegos Deportivos Escolares (1°, 2º o 3° puesto en Etapa Nacional) - 5 puntos</string>
     <string name="actExtOpc4">(JDP) Participación en la Etapa Nacional de los Juegos Deportivos Escolares Nacionales - 2 puntos</string>
 
+    <string name="conPri">Otras condiciones priorizables </string>
+    <string name="conPriOpc1">(D) Discapacidad - 5 puntos</string>
+    <string name="conPriOpc2">(B) Bomberos activos e hijos de bomberos - 5 puntos</string>
+    <string name="conPriOpc3">(V) Voluntarios reconocidos por el MIMP - 5 puntos</string>
+    <string name="conPriOpc4">(IA) Pertenencia a Comunidad Nativa Amazónica o Población Afroperuana - 5 puntos</string>
+    <string name="conPriOpc5">(PEM) Población expuesta a metales pesados y otras sustancias químicas - 5 puntos</string>
+    <string name="conPriOpc6">(PD) Población beneficiaria (Res. Suprema Nº 264-2022-JUS) - 5 puntos</string>
+    <string name="conPriOpc7">(OR) Población beneficiaria de la Ley N° 31405 (orfandad) - 5 puntos</string>
+    <string name="conPriOpc8">(DF) Desprotección familiar - 5 puntos</string>
+    <string name="conPriOpc9">(ACS) Agente Comunitario de Salud - 5 puntos</string>
 
 </resources>
