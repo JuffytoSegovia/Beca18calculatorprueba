@@ -39,7 +39,11 @@
     <string name="quintFH">Quintil de la tasa de transición</string>
     <string name="lengua">Lengua Originaria</string>
 
-
+    <string name="actExt">Participación en Actividades Extracurriculares</string>
+    <string name="actExtOpc1">(CE) Concurso Escolar Nacional (1°, 2º o 3º Puesto Etapa Nacional) o Concurso Escolar Internacional - 5 puntos</string>
+    <string name="actExtOpc2">(CEP) Participación en la Etapa Nacional de los Concursos Escolares Nacionales - 2 puntos</string>
+    <string name="actExtOpc3">(JD) Juegos Deportivos Escolares (1°, 2º o 3° puesto en Etapa Nacional) - 5 puntos</string>
+    <string name="actExtOpc4">(JDP) Participación en la Etapa Nacional de los Juegos Deportivos Escolares Nacionales - 2 puntos</string>
 
 
 </resources>

@@ -40,7 +40,7 @@ class PrePagOneActivity : AppCompatActivity() {
 
         binding.nextPagF.setOnClickListener {
             if (validateInputs()) {
-                val intent = Intent(this, HomeActivity::class.java)
+                val intent = Intent(this, PrePagTwoActivity::class.java)
                 startActivity(intent)
             }
         }
